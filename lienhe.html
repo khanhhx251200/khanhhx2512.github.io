@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký thông tin</title>
+    <link rel="stylesheet" href="Assignment.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="tong">
+        <header>
+            <div class="phantrai">
+                <i class="fas fa-phone"></i>
+                <a href="#">Hotline:(04).6674.2332</a>
+                <i class="fas fa-envelope"></i>
+                <a href="#">Email: support@bizweb.vn</a>
+            </div>
+            <div class="phanphai">
+                <i class="far fa-bookmark"></i>
+                <a href="#">Khuyến mãi</a>
+                <i class="fas fa-check"></i>
+                <a href="#">Tra cứu đơn hàng</a>
+                <i class="far fa-heart"></i>
+                <a href="#">Sản phẩm yêu thích</a>
+            </div>
+            <div class="login">
+                <li><a href="#">Đặt hàng</a></li>
+            </div>
+
+        </header>
+        <nav>
+            <ul class="menu" style="list-style-type: none">
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="#">LAPTOP GAMING</a></li>
+                <li><a href="#">LAPTOP VĂN PHÒNG</a></li>
+                <li><a href="#">CHÍNH SÁCH</a></li>
+                <li><a href="#">TIN TỨC</a></li>
+                <li><a href="lienhe.html">LIÊN HỆ</a></li>
+            </ul>
+        </nav>
+        <div class="trangtri">
+            <img src="images/cover.jpeg" width="1300px">
+            <div class="box1">
+                <img src="images/baner_02.jpg">
+                <img src="images/baner_03.jpg">
+                <img src="images/baner_04.jpg">
+            </div>
+            <div class="box2">
+                <img src="images/baner_05.jpg">
+                <img src="images/baner_06.jpg">
+                <div style="clear: both"></div>
+
+            </div>
+        </div>
+        <article style="border: 0px solid red;">
+
+            <div class="mathang">
+                <h1>Đăng ký thêm ý kiến</h1>
+                <form>
+                    <div class="form-group">
+                        <label>Họ và tên: </label>
+                        <input type="text" tabindex="1" placeholder="Họ & tên" class="form-control" required id="namee"></div><br>
+                    <div class="form-group"><label>Địa chỉ Email: </label>
+                        <input type="email" tabindex="2" placeholder="Địa chỉ email" class="form-control" required id="diachi"></div><br>
+                    <div class="form-group"><label>Số điện thoại: </label>
+                        <input type="text" tabindex="3" placeholder="Số điện thoại" class="form-control" required id="sdt"></div><br>
+                    <div class="form-group"><label>Giới tính:</label>
+                        <input type="radio" name="gt" tabindex="4" checked>Nam
+                        <input type="radio" name="gt" tabindex="5">Nữ</div><br>
+                    <div class="form-group"><label>Tiêu đề: <br>
+                        <input class="form-control" type="text" tabindex="6" placeholder="Tiêu đề" required></label></div>
+                        
+                    <div class="form-group"><label>Nội dung:</label><br>
+                        <textarea cols="50" tabindex="10" required></textarea></div><br>
+                    <button class="button" tabindex="11" type="submit" onclick="submitt()" id="login">Đăng ký</button>
+                    <button class="button" tabindex="12" type="reset">Nhập lại</button>
+                    
+
+                </form>
+                <hr>
+                <div style="clear: both"></div>
+                <img id="sale" src="images/sale.jpg">
+            </div>
+        </article>
+        <aside style="border: 0px solid red;">
+            <img id="haha" src="images/banner_ban%20chay%20nhat.jpg" height="50px">
+            <div class="box3 kiki">
+                <img src="images/tai-nghe-hyperx-cloud-stinger-1.jpg" height="90px" width="110px" class="sphamhover"><br>
+                <a href="#">Tai nghe HyperX</a>
+                <li class="gia banchay">Giá: 4.999.000 vnđ</li>
+                <li>Giá mới: 2.490.000 vnđ</li>
+                <li>Tình trạng: Còn hàng</li>
+                <li>Bảo hành: 02 năm</li>
+            </div>
+            <div class="box3 kiki">
+                <img src="images/Logitech-G502-HERO-Gaming-Mouse-Debuts-600x566.jpg" height="100px" width="110px" class="sphamhover"><br>
+                <a href="#">Chuột Logitech G502</a>
+                <li class="gia banchay">Giá: 2.999.000 vnđ</li>
+                <li>Giá mới: 1.490.000 vnđ</li>
+                <li>Tình trạng: Còn hàng</li>
+                <li>Bảo hành: 02 năm</li>
+            </div>
+            <div class="box3 kiki">
+                <img src="images/keyboard.png" height="100px" width="190px" class="sphamhover"><br>
+                <a href="#">Bàn Phím Razer</a>
+                <li class="gia banchay">Giá: 3.999.000 vnđ</li>
+                <li>Giá mới: 2.990.000 vnđ</li>
+                <li>Tình trạng: Còn hàng</li>
+                <li>Bảo hành: 02 năm</li>
+            </div>
+            <div class="box3 hoho kiki">
+                <img src="images/manhinh.JPG" height="100px" width="110px" class="sphamhover"><br>
+                <a href="#">Màn hình Samsung 27"</a>
+                <li class="gia banchay">Giá: 5.999.000 vnđ</li>
+                <li>Giá mới: 4.490.000 vnđ</li>
+                <li>Tình trạng: Còn hàng</li>
+                <li>Bảo hành: 02 năm</li>
+            </div>
+            <img id="kaka" src="images/doc_06.jpg">
+        </aside>
+        <div style="clear: both"></div>
+
+    </div>
+    <footer>
+        <div class="tong footer">
+
+            <table border="1" class="table1">
+                <tr>
+                    <td>THÔNG TIN KHÁCH HÀNG </td>
+                    <td>CHÍNH SÁCH MUA HÀNG</td>
+                    <td>DỊCH VỤ HỘ TRỢ</td>
+                    <td>CHÚNG TÔI Ở ĐÂY:</td>
+                </tr>
+                <tr>
+                    <td>Trang chủ</td>
+                    <td>Trang chủ</td>
+                    <td>Giờ mở cửa</td>
+                    <td rowspan="4" colspan="2"><img id="map" src="images/lien%20he_brn-dn.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Laptop Gaming</td>
+                    <td>Laptop Gaming</td>
+                    <td class="khanh">8h00 AM - 22h00 PM</td>
+                </tr>
+                <tr>
+                    <td>Giới thiệu</td>
+                    <td>Giới thiệu</td>
+                    <td>Đặt hàng nhanh:</td>
+                </tr>
+                <tr>
+                    <td>Gaming Gear</td>
+                    <td>Gaming Gear</td>
+                    <td class="khanh">Gọi Ngay: (04).6674.2332</td>
+                </tr>
+                <tr>
+                    <td>Tin tức</td>
+                    <td>Tin tức</td>
+                </tr>
+                <tr>
+                    <td>Liên hệ</td>
+                    <td>Liên hệ</td>
+                </tr>
+
+            </table>
+
+            <br>
+            <hr>
+
+            <table class="table2">
+                <tr class="small">
+                    <td>CÔNG TY CỔ PHẨN THƯƠNG MẠI CÔNG NGHỆ VIỆT</td>
+                    <td colspan="4">CHẤP NHẬN THANH TOÁN</td>
+                    <td colspan="3">KẾT NỐI VỚI CHÚNG TÔI</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>Địa chỉ: Tầng 8 Ladeco, 266 Đội Cấn, Hà Nội, Việt Nam</td>
+                    <td><img src="images/thanhtoan_01.gif"></td>
+                    <td><img src="images/thanhtoan_02.gif"></td>
+                    <td><img src="images/thanhtoan_03.gif"></td>
+                    <td><img src="images/thanhtoan_04.gif"></td>
+                    <td><img src="images/logo_fb.gif"></td>
+                    <td><img src="images/logo_swite.gif"></td>
+
+                <tr>Email: support@bizweb.vn</tr>
+            </table>
+        </div>
+    
+    </footer>
+    <script>
+        function submitt(){
+            var namee = document.getElementById("namee").value; 
+        var diachi = document.getElementById("diachi").value;
+        var emaill = document.getElementById("sdt").value;
+        if(namee == ""){
+            
+            return false;
+        } else if( diachi == ""){
+             return false;
+        } else if(emaill == ""){
+             return false;
+        } else{
+            alert("Đặt hàng thành công!!")
+        }
+        }
+    </script>
+</body>
+
+</html>

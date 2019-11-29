@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        var img = [];
+        var index = 0;
+
+        function loadAnh() {
+            for (var i = 1; i < 10; i++) {
+                img[i] = new Image();
+                img[i].src = 'images/small/' + i + '.jpg';
+            }
+            img.shift();
+        }
+
+        function next() {
+            index++;
+            if (index > img.length - 1) {
+                index = 0;
+            }
+            console.log(index);
+            var a = document.getElementsByClassName('img');
+
+            if (index == 6) {
+                a[0].src = img[index + 0].src;
+                a[1].src = img[index + 1].src;
+                a[2].src = img[index + 2].src;
+                a[3].src = img[0].src;
+            } else if (index == 7) {
+                a[0].src = img[7].src;
+                a[1].src = img[8].src;
+                a[2].src = img[0].src;
+                a[3].src = img[1].src;
+
+            } else if (index == 8) {
+                a[0].src == img[8].src;
+                a[1].src = img[0].src;
+                a[2].src = img[1].src;
+                a[3].src = img[2].src;
+                index = 8;
+            } else {
+                a[0].src = img[index + 0].src;
+                a[1].src = img[index + 1].src;
+                a[2].src = img[index + 2].src
+                a[3].src = img[index + 3].src;
+            }
+        }
+
+        function pre() {
+
+            index--;
+            if (index < 0) {
+                index = img.length - 1;
+            }
+            console.log(index);
+            var i = document.getElementsByClassName('img');
+            let li = img.length;
+            //            if (index == 2) {
+            //                i[0].src = img[index].src;
+            //                i[1].src = img[index - 1].src;
+            //                i[2].src = img[index - 2].src;
+            //                i[3].src = img[img.length - 1].src;
+            //
+            //            } else if (index == 1) {
+            //                i[0].src = img[img.length - 2].src;
+            //                i[1].src = img[img.length - 3].src;
+            //                i[2].src = img[img.length - 4].src;
+            //                i[3].src = img[img.length - 5].src;
+            //            } else if (index == 0) {
+            //                i[0].src = img[img.length - 6].src;
+            //                i[1].src = img[img.length - 7].src;
+            //                i[2].src = img[img.length - 8].src;
+            //                i[3].src = img[img.length - 9].src;
+            //                index = img.length - 1;
+            //            } else {
+            //                i[0].src = img[index].src;
+            //                i[1].src = img[img.length-index-1].src;
+            //                i[2].src = img[index-2].src;
+            //                i[3].src = img[index-3].src;
+            //            }
+            if (index == 8) {
+                i[0].src = img[index].src;
+                i[1].src = img[0].src;
+                i[2].src = img[1].src;
+                i[3].src = img[2].src;
+            }else if (index == 7) {
+                i[0].src = img[index].src;
+                i[1].src = img[index + 1].src;
+                i[2].src = img[0].src;
+                i[3].src = img[1].src;
+            } else if (index == 6) {
+                i[0].src = img[index].src;
+                i[1].src = img[index + 1].src;
+                i[2].src = img[index + 2].src;
+                i[3].src = img[0].src;
+            } else {
+                i[0].src = img[index].src;
+                i[1].src = img[index + 1].src;
+                i[2].src = img[index + 2].src;
+                i[3].src = img[index + 3].src;
+            }
+
+        }
+    </script>
+</head>
+
+<body onload="loadAnh()">
+    <header>
+        <h1>GALLERRY</h1>
+    </header>
+    <nav>
+        <img src="images/btn.png" alt="" class="btn" id="btnPre" onclick="pre()">
+        <img src="images/small/1.jpg" alt="" class="img">
+        <img src="images/small/2.jpg" alt="" class="img">
+        <img src="images/small/3.jpg" alt="" class="img">
+        <img src="images/small/4.jpg" alt="" class="img">
+        <img src="images/btn-1.png" alt="" class="btn" id="btnNext" onclick="next()">
+    </nav>
+
+</body>
+
+</html>

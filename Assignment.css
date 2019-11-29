@@ -1,0 +1,433 @@
+body{
+    width: 1300px;
+    margin: 0 auto;
+}
+.tong {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: sandybrown;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px
+}
+
+.phanphai > a {
+    color: white;
+    font-family: Arial;
+    text-decoration: none
+}
+
+.phantrai > a {
+    color: white;
+    font-family: Arial;
+    text-decoration: none
+}
+
+.fa-phone {
+    float: left;
+}
+
+div > i {
+    margin-left: 25px;
+}
+
+.phantrai > p {
+    font-family: Arial;
+    font-size: 14px;
+    color: ;
+    padding-top: 21px;
+}
+
+.phantrai > img {
+    float: left
+}
+
+.phanphai {
+    font-family: Arial;
+    margin-left: 447px;
+}
+
+ul.menu > li {
+    float: left;
+    margin-right: 10px;
+    margin-left: 40px
+}
+
+.login > li > a {
+    margin-left: 1120px;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+nav {
+    background-color: darkred;
+    height: 30px;
+    padding: 15px;
+
+}
+
+li > a {
+    font-size: 13pt;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fffcfc;
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: yellow;
+}
+
+article > img {
+    width: 100%;
+    height: 300pt;
+}
+
+.box1 > img {
+    float: left;
+    width: 33.333333%;
+    height: 90pt;
+}
+
+.box1 {
+    width: 100%;
+}
+
+.box2 {
+    width: 100%;
+}
+
+.box2 > img {
+    float: left;
+    width: 48%;
+    margin-right: 10px;
+    margin-left: 13px;
+    margin-top: 10px
+}
+
+#hihi {
+    width: 93.3%;
+
+    padding-left: 13px
+}
+
+#haha {
+    width: 210pt;
+    padding-top: 7.7px;
+    padding-right: 10px;
+    padding-left: 24px;
+}
+
+#hehe {
+    padding-left: 13px;
+    width: 910px;
+    height: 70px
+}
+
+
+
+article {
+    width: 75%;
+    margin-top: 10px;
+    background-color: white;
+    float: left;
+}
+
+.GF63 {
+    width: 428px;
+    height: 340px;
+    margin-left: 13px;
+    border: 2pt solid gray;
+    float: left;
+    
+}
+
+.GF63 > img {
+    margin-left: 1pt;
+    margin-top: 1pt;
+}
+
+.img {
+    padding-left: 60pt;
+    position: relative;
+}
+
+.img > a {
+    text-decoration: none;
+}
+
+giasoc > img {
+    position: absolute;
+
+    top: 150pt;
+    left: 10pt
+}
+
+.gia {
+    text-decoration: line-through;
+}
+
+.Acer {
+    border: 2pt solid gray;
+    width: 452px;
+    margin-left: 466px;
+    height: 340px;
+}
+
+.Dell {
+    width: 422px;
+    height: 333px;
+    margin-left: 13px;
+    margin-top: 10px;
+    border: 2pt solid gray;
+    float: left;
+    padding: 3px;
+}
+
+.Dell > img {
+    margin-left: 1pt;
+    margin-top: 1pt;
+}
+
+.Asus {
+    border: 2pt solid gray;
+    width: 452px;
+    height: 340px;
+    margin-left: 466px;
+    margin-top: 10px;
+}
+
+.Asus > img {
+    margin-left: 1pt;
+    margin-top: 1pt;
+}
+
+aside {
+    margin-top: 2px;
+    float: left;
+    width: 24%;
+}
+
+.box3 {
+    border-bottom: 2px dotted gray;
+    width: 250px;
+    height: 200px;
+    margin-left: 37px;
+    border-right: 2px solid yellow;
+    border-left: 2px solid yellow;
+}
+
+.hoho {
+    border-bottom: 2px solid yellow;
+}
+
+#kaka {
+    margin-left: 43px;
+    margin-top: 5px;
+}
+
+footer {
+    width: 1300px;
+    height: 350px;
+    background-color: black;
+    padding-top: 30px
+}
+
+
+
+.footer {
+    color: white;
+}
+
+.table1 > tr > td {
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+#map {
+    height: 110px
+}
+
+.small > td {
+    padding-right: 150px;
+}
+
+.kiki > li {
+    padding-left: 40px
+}
+
+.kiki > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue
+}
+
+.kiki > a :hover {
+    color: red
+}
+
+#sale {
+    height: 270px;
+    width: 97.7%;
+    margin-top: 5px;
+    margin-left: 1.3%
+}
+
+h1 {
+    text-align: center;
+    margin-left: 14px
+}
+
+.form-group {
+    margin: 10px 2px;
+}
+
+.form-control {
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    width: 450px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    color: orangered;
+    display: block;
+    outline: none;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 3px orangered;
+}
+
+.button {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    padding: 5px 15px;
+    color: blue;
+    outline: none;
+}
+
+.button:focus {
+    box-shadow: 0 0 3px orangered;
+    color: orangered;
+}
+
+.button:disabled {
+    text-decoration: line-through
+}
+
+textarea {
+    height: 120px;
+    width: 440px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.khanh {
+    color: lawngreen;
+}
+
+a > h3 {
+    color: blue
+}
+
+h1 {
+    padding-right: 90px
+}
+
+.chinhsachdoitra > h1 {
+    color: red
+}
+
+.chinhsach {
+    color: blue;
+    font-size: 25px;
+}
+
+.trahang {
+    color: cadetblue;
+    font-size: 20px;
+}
+
+#luuy {
+    color: red;
+    font-size: 20px;
+}
+
+.col-4 {
+    float: left;
+    margin-right: 10px
+}
+
+.col-8 > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px
+}
+
+.publish_date {
+    color: #969696;
+}
+
+.tintuc > h1 {
+    text-align: left;
+    font-size: 35px
+}
+.vp{
+    padding-bottom: 18px
+}
+/*
+#anhtintuc:hover{
+    opacity: 0.6;
+}
+*/
+.sphamhover:hover{
+    opacity: 0.5;
+}
+#pc_xanhla{
+    margin: 10px; 
+}
+#anhtintuc{
+    display: block;
+    width="320px";
+    height="200px";
+}
+.heade{
+    position: relative;
+}
+#overplay{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 300;
+    height: 0;
+    transition: .5s ease;
+}
+.heade:hover #overplay{
+    top: 10%;
+    height: 80%;
+}
+
+.textbanner1{
+    font-weight: bold;
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
